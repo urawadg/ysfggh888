@@ -9,4 +9,4 @@ jobs:
       name: win/default
       size: "2xlarge" 
     steps:
-      - run: Write-Host 'Hello, Windows'
+      - run: lscpu
